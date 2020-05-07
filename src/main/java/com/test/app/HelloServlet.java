@@ -25,7 +25,7 @@ public class HelloServlet extends HttpServlet {
 
         try {
             int number = Integer.parseInt(request.getParameter("number"));
-            out.println("Your number is: " + number + "!");
+            out.println("Your article number is: " + number + "!");
         } catch(RuntimeException err) {
             out.println("No number given");
         }
